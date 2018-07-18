@@ -17,16 +17,26 @@ a {
 }
 
 .topBar {
-    background-color: white;
+    background-color: #ffffff;
+    z-index: 3;
+    width: 100%;
+    padding: 40px;
+    border-bottom: 1px solid #dddddd;
+    margin: 0 auto;
+    position: absolute;
+    top: 0%;
+    left: 0%;
 }
 
 #name {
     color: white;
     background-color: #4aaaa5;
-    padding: 20px;
+    padding: 22px;
     margin: 0 auto;
-    margin-bottom: 40px;
     float: left;
+    position: absolute;
+    top: 0px;
+    left: 175px;
 }
 
 nav {
@@ -36,9 +46,10 @@ nav {
     color: #777777;
     padding: 20px;
     margin: 0 auto;
-    margin-bottom: 40px;
-    position: fixed;
-    right: 0;
+    margin-bottom: 20px;
+    position: absolute;
+    right: 10%;
+    top: 20px;
 }
 
 span {
@@ -57,12 +68,14 @@ hr {
 
 .main-area {
     background-color: #ffffff;
-    border-color: #dddddd;
     color: #777777;
     clear: both;
     margin-bottom: 40px;
     width: 960px;
     margin: auto;
+    padding: 5px 20px;
+    position: relative;
+    top: 100px;
 }
 
 .main-area::after {
@@ -80,7 +93,7 @@ footer {
     float: left;
     width: 100%;
     box-sizing: border-box;
-    position: sticky;
+    position: fixed;
     bottom: 0%;
     right: 0%;
 }
