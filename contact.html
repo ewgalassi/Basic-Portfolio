@@ -7,25 +7,39 @@
     </head>
 
     <body>
-        <h1 id="name">Eric Galassi</h1>
-        <nav>
-            <div>
-                <span><a href="index.html">About</a></span>
-                <span><a href="portfolio.html">Portfolio</a></span>
-                <span>Contact</span>
-            </div>
-        </nav>
-        <h1 class="page-title">Contact</h1>
-        <form>
-            <label>Name</label><br>
-            <input type="text"></input><br>
+        <div class="topBar">
+            <h1 id="name">Eric Galassi</h1>
+            <nav>
+                <div>
+                    <span><a href="index.html">About</a></span>
+                    <span>|</span>
+                    <span><a href="portfolio.html">Portfolio</a></span>
+                    <span>|</span>
+                    <span>Contact</span>
+                </div>
+            </nav>
+        </div>
+        <br>
 
-            <label>Email</label><br>
-            <input type="text"></input><br>
+
+        <div class="main-area">
+            <h1 class="page-title">Contact</h1>
+            <hr>
+            <br>
+        
+            <form>
+                <label>Name</label><br>
+                <input type="text" placeholder="John Smith"></input><br>
+
+                <label>Email</label><br>
+                <input type="text" placeholder="example@gmail.com"></input><br>
             
-            <label>Message</label><br>
-            <textarea></textarea>
-        </form>
+                <label>Message</label><br>
+            <textarea></textarea><br>
+
+                <input id="submit-button" type="submit" value="Submit">
+            </form>
+        </div>
     </body>
     <footer>
             <div>2018</div>
